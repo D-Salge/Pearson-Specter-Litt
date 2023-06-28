@@ -204,6 +204,11 @@ i {
   background: #cd7d1b;
 }
 
+.btn a {
+  color: white;
+}
+
+
 .btn-contact {
   padding: 10px 15px;
   border-radius: 5px;
