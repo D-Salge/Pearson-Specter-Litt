@@ -58,7 +58,32 @@
     </div>
   </header>
 
-  
+  <section id="contact" class="text-image-section">
+    <div id="contact-image-container" class="image-container">
+      <img src="img/office.jpg" alt="Advogados no escritório" />
+    </div>
+    <div id="contact-information" class="text-container">
+      <p class="section-subtitle">Deixe seu contato, nós ligamos para você.</p>
+      <form>
+        <div class="form-control">
+          <input type="text" name="name" id="name" placeholder="Seu nome" required/>
+          <input type="email" name="email" id="email" placeholder="Seu e-mail" required/>
+        </div>
+        <input type="text" name="telefone" id="telefone" placeholder="Seu telefone" required/>
+        <input type="text" name="cidade" id="cidade" placeholder="Sua cidade" required/>
+        <textarea class="resizable" name="mensagem" placeholder="Deixe sua mensagem"></textarea>
+        <input type="submit" value="Enviar" class="btn" />
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <div id="contact-information" class="text-container">
+      <div id="contact-map"></div>
+      <p class="white"> <b>Endereço do escritório: </b> <br> Rua dos Advogados - Jardim Valparaiba São José dos Campos - SP, 12221-810</p>
+      <h2 class="white">Atendimento</h2>
+      <p class="white">Telefone: (99) 9999-9999</p>
+      <p class="white">Celular: (99) 9999-9999</p>
+      <button class="btn">Trabalhe Conosco</button>
+    </div>
+  </section> 
 
   <footer id="footer">
     <div class="contact-info">
@@ -67,7 +92,7 @@
         <p>O advogado certo para a sua empresa</p>
       </div>
       <div class="contact-mediaquery">
-        <p><i class="bi bi-geo-alt"></i> Rua dos Advogados, 1415</p>
+        <p><i class="bi bi-geo-alt"></i> Rua dos Advogados, 123</p>
         <p><i class="bi bi-telephone"></i> (99) 9999-9999</p>
         <p><i class="bi bi-envelope"></i> contato@pearsonspecterlitt.com</p>
       </div>
@@ -110,6 +135,7 @@
       </p>
     </div>
   </footer>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrM5fIvdaYY-E0ZDC6HihNTAB6iwLFBFk&callback=initMap" async defer></script>
 </body>
 
 </html>

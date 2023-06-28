@@ -74,6 +74,8 @@ i {
 }
 
 .image-container {
+  margin-top: 100px;
+  margin-left: 10px;
   flex: 1.3 1 350px;
   position: relative;
 }
@@ -177,6 +179,10 @@ i {
   text-transform: uppercase;
   font-weight: bold;
   color: var(--main-color);
+}
+
+.white {
+  color: white;
 }
 
 .section-title {
@@ -451,7 +457,7 @@ i {
 }
 
 #contact-information {
-  position: relative;
+  position: block;
   text-align: left;
   padding: 3rem;
   flex: 1 1 0;
@@ -480,11 +486,16 @@ i {
   gap: 1rem;
 }
 
-#contact-information input,
-#contact-information textarea {
+#contact-information input {
   flex: 0.5;
   padding: 1rem;
   border: none;
+}
+
+#contact-information textarea {
+  padding: 1rem;
+  border: none;
+  resize: vertical;
 }
 
 #contact-information .btn {
@@ -497,6 +508,17 @@ i {
 #contact-information .btn:hover {
   background-color: var(--prymary-text-color);
   color: var(--main-color);
+}
+
+.section-subtitle {
+  margin-top: 50px;
+}
+
+#contact-map {
+  align-self: center;
+  width: 600px;
+  height: 400px;
+  margin-right: 10px;
 }
 
 #footer {

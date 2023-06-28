@@ -130,3 +130,21 @@ campoTelefone.addEventListener("input", function() {
   campoTelefone.value = telefoneFormatado;
 });
 
+function initMap() {
+  // Configurações do mapa
+  var mapOptions = {
+    center: { lat: -23.174015957737744, lng: -45.83825163705554 }, 
+    zoom: 15 // Nível de zoom inicial
+  };
+
+  // Criação do mapa
+  var map = new google.maps.Map(document.getElementById('contact-map'), mapOptions);
+
+  // Marcador
+  var marker = new google.maps.Marker({
+    position: { lat: -23.174015957737744, lng: -45.83825163705554 },
+    map: map,
+    title: 'Pearson Specter Litt'
+  });
+}
+
